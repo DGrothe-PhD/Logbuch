@@ -17,7 +17,8 @@ switch = {
     'fs' : "Fenster geschlossen im ",
     'p' : "Es läuft gerade: ",
     'ws': "Starte Arbeit an",
-    'wf': "Beende Arbeit an"
+    'wf': "Beende Arbeit an",
+    'j': "joylent gegessen"#as original
     }
 
 def longForShort(c):
@@ -38,7 +39,6 @@ def addevent(name):
     logfile.write('\n')
     logfile.write(data)
     logfile.close()
-
 pass
 
 def run():
