@@ -21,7 +21,7 @@ switch = {
     }
 
 def longForShort(c):
-    return switch.get(c, c + " ")
+    return switch.get(c, c).rstrip() + " "
 
 def dialog():
     print("Log your events \n","last event: \n")
